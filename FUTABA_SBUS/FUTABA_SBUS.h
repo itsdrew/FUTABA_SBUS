@@ -9,8 +9,8 @@
 #define SBUS_SIGNAL_LOST        0x01
 #define SBUS_SIGNAL_FAILSAFE    0x03
 #define BAUDRATE 100000
-#define port Serial1
-//#define ALL_CHANNELS
+#define port Serial //Changed from Serail1 to Serial for UNO
+//#define ALL_CHANNELS //Uncomment this to allow for channels 9-16 + digital channels instead of 1-8
 
 
 class FUTABA_SBUS
